@@ -21,7 +21,7 @@ export default function Home() {
 
     return(
         <div>
-            <TitleCard imgObjs={findImgType(placeHolder)} />
+            <TitleCard imgObjs={findImgType("")} />
             <div>
                 <ul>
                     <li>Entertainment</li>

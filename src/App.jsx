@@ -2,13 +2,14 @@ import { createRoot } from "react-dom/client";
 import { StrictMode } from 'react';
 
 import  Home  from "./routes/Home";
-import  Info  from "./routes/Info.lazy"
-import  Map  from "./routes/Map.lazy"
-import  PlaceSearch from "./routes/PlaceSearch.lazy"
+import  Info  from "./routes/Info.lazy";
+import  Map  from "./routes/Map.lazy";
+import  PlaceSearch from "./routes/PlaceSearch.lazy";
 import NavBar from "./components/Navbar";
 
 import { Route, Routes } from "react-router-dom";
 import { BrowserRouter } from 'react-router-dom';
+
 
 const App = () => {
   return(
