@@ -4,11 +4,10 @@ import { getBackgoundImgs } from "../services/api"
 
 
 export default function Home() {
-
-    //My plan here is to have a backgroundImg objs. Howver they will be organized by same attributes. ie: for the title car background, this obj wont be used for the entertainment Imgs.
     const [backgroudImgs, setBackgroundImgs] = useState([])
 
     const findImgType = (imgType) => {return backgroudImgs.filter(item =>  item.type == imgType)}
+
 
     useEffect(() => {
         const loadApi = async () => {
@@ -19,9 +18,10 @@ export default function Home() {
     }, []);
 
 
+ 
     return(
         <div>
-            <TitleCard imgObjs={findImgType("")} />
+            <TitleCard imgObjs={findImgType("cat")} />
             <div>
                 <ul>
                     <li>Entertainment</li>

@@ -2,9 +2,6 @@ import { Link } from "react-router-dom";
 
 const SideNav = (isActive = false, changeActive) => {
 
-
-
-
     
     return(
         <nav className={`sideNav ${isActive ? "open" : ""}`}>

@@ -1,6 +1,7 @@
 [
-    {"type": "main", "url": "akjdlakjsdlakjsdalkjsd"},
-    {"type": "entertainment", "url": "akjdlakjsdlakjsdalkjsd"},
-    {"type": "food", "url": "akjdlakjsdlakjsdalkjsd"},
-    {"type": "parks", "url": "akjdlakjsdlakjsdalkjsd"}
+    {"type": "cat", "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThuEC_5OPvXllpZKD18twQRVtII20H0G2sDQ&s", "alt": "cat picture"},
+    {"type": "cat", "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThuEC_5OPvXllpZKD18twQRVtII20H0G2sDQ&s", "alt": "another car"},
+    {"type": "dog", "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqQSs0-ATLu5VtdTtfutEJFNNBT0svRG1d0g&s", "alt": "dog picture"},
+    {"type": "pengin", "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtQzYQNe2dX-4wpMhJeZbqrhbvzTP4pdWrEA&s", "alt": "pengin"},
+    {"type": "bob", "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD03onf2UEemMrf92zTfbJ6CBBtCZVTKR7Tw&s", "alt": "bob ross"}
 ]

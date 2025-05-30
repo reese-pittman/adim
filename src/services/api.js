@@ -4,7 +4,6 @@ const BASE_URL = "http://localhost:5173/api";
 export const getBackgoundImgs = async () => {
   const response = await fetch(`${BASE_URL}/imgs.json`);
   if (!response.ok) throw new Error("Failed to fetch data");
-  
   const data = await response.json();
   return data;
 };
